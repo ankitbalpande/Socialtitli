@@ -1,0 +1,39 @@
+/*********font-size*******/
+.fs-15{
+    font-size: 15px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-17{
+    font-size: 17px;
+}
+.fs-1r{
+    font-size: 1rem;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-2r{
+    font-size: 2rem;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-35{
+    font-size: 35px;
+}
+.fs-45{
+    font-size: 60px;
+}
+
+
+.letter-sp-01em{
+    letter-spacing: .1em;
+}

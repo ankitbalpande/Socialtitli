@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'circular_stdbold';
+    src: url('../fonts/circularstd-bold-webfont.woff2') format('woff2'),
+    url('../fonts/circularstd-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+
+  @font-face {
+    font-family: 'circular_stdbook';
+    src: url('circularstd-book-webfont.woff2') format('woff2'),
+         url('circularstd-book-webfont.woff') format('woff'),
+         url('circularstd-book-webfont.svg#circular_stdbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'circular_stdmedium';
+  src: url('circularstd-medium-webfont.woff2') format('woff2'),
+       url('circularstd-medium-webfont.woff') format('woff'),
+       url('circularstd-medium-webfont.svg#circular_stdmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Tahoma';
+  src: url('Tahoma-Bold.woff2') format('woff2'),
+      url('Tahoma-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tahoma';
+  src: url('Tahoma.woff2') format('woff2'),
+      url('Tahoma.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+

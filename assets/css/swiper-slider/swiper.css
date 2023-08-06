@@ -1,0 +1,298 @@
+
+.swiper-slide img{
+    width: 100%;
+}
+.socialtitli-offering{
+    max-width: var(--mwidth);
+    overflow: hidden;
+    height: auto;
+}
+ 
+.section{
+    width: 100%;
+    max-width: 100vw;
+   
+    translate: none;
+    rotate: none;
+    scale: none;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    max-height: 903.425px;
+    height: 903.425px;
+    padding: 80px 0px; 
+    transform: translate(0px, 48.8px);
+    overflow-wrap: break-word;
+}
+
+  /*****my css******/
+
+
+.main-container{
+    width: 100%;
+    max-width: calc(var(--mwidth)*var(--pp-adjust, 1) + 30px);
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: auto;
+    overflow-wrap: break-word;
+    margin-right: auto;
+}
+.inner-container{
+    width: 100%;
+    float: left;
+}
+.socialtitli-home-offering .swiper {
+    overflow: visible;
+}
+.socialtitli-home-offering .swiper-wrapper {
+    align-items: flex-end;
+}
+.offerings-card {
+    display: grid;
+    overflow: hidden;
+    max-width: 100%;
+}
+.pin-spacer{
+    order: 0;
+    place-self: auto;
+    grid-area: auto / auto / auto / auto;
+    z-index: auto;
+    float: left;
+    flex-shrink: 1;
+    display: block;
+    margin: 0px;
+    inset: auto;
+    position: relative;
+    flex-basis: auto;
+    overflow: visible;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 50px;
+}
+.arrow-right-left{
+    position: absolute;
+    bottom: 15px;
+    z-index: 1;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    right: 10px;
+    cursor: pointer;
+}
+.arrow-right-left .swiper-button-disabled{
+    opacity: 0.2;
+    pointer-events: none;
+}
+/*----swiper------*/
+.slide-content h3{
+    line-height: 1.5;
+    overflow: hidden;
+    color: var(--colr-fff);
+  }
+  .slide-content h3 span{
+    display: block;
+      font-size: 125%;
+      font-weight: 500;
+      line-height: 1.4;
+      transform: skewY(10deg) rotate(5deg) translateY(100%);
+      transform-origin: left;
+      transition: transform .5s;
+  }
+  
+   .main-slider:hover span{
+    margin-bottom: -1px;
+    transform: skewY(0deg) rotate(0deg) translateY(0);
+    transition-delay: 390ms;
+  }
+  .slide-content h3 .slide-grade{
+    background: -webkit-linear-gradient(linear, left top, right top, from(rgb(95, 203, 226)), to(rgb(111, 251, 207)));
+    background: -o-linear-gradient(left, rgb(95, 203, 226) 0%, rgb(111, 251, 207) 100%);
+    background: linear-gradient(90deg, rgb(95, 203, 226) 0%, rgb(111, 251, 207) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .slide-content p{
+    color: var(--colr-fff);
+  }
+  /*
+  .slide-content article{
+    width: 43%;
+    position: absolute;
+    top: calc(50% - 10%);
+    right: 0;
+    padding: 0 50px 0 0;
+  }
+  */
+  
+  .slide-content article {
+    width: 43%;
+    position: absolute;
+    /* top: calc(50% - 10%); */
+    right: 0;
+    padding: 0 50px 0 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+ 
+  .slider-img img{
+    width: 100%;
+    transform:perspective(100) scale3d(1, 1, 1);
+    transform-origin: top;
+    -webkit-transition: 11s ;
+    transition:  1s ; 
+    
+  }
+  #socialtitli-offering-poster .offerings-card:hover img{
+    transform-origin: top;
+    transform: scale3d(1.03, 1.03, -1);
+  }
+
+/****************insights***************/
+
+.insights-img{
+    height: 34.5rem;
+    overflow: hidden !important;
+  }
+  .insights-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform:scale(1);
+    -webkit-transform:scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out; 
+  }
+  #insights .swiper-slide:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);  
+    text-decoration: none; 
+  }
+  .insights-content h4{
+    font-family:var(--circular);
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+    color: var(--colr-fff);
+  }
+  .insights-content p{
+    line-height: 2rem;
+    letter-spacing: .03125rem;
+    margin-bottom: 8px;
+    color: var(--colr-fff);
+  }
+  .insights-content a{
+    line-height: 1.5rem;
+    letter-spacing: .15em;
+    font-weight: 600;
+}
+.insights-content{
+    bottom: 40px;
+    left: 24px;
+    width: 81%;
+    z-index: 2;
+    transition:0.5s ;
+}
+.insights-img::after{
+    content: "";
+    background: -webkit-gradient(linear,left bottom,left top,from(#000),to(transparent));
+    background: linear-gradient(0deg,#000,transparent);
+    opacity: .9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.insights-button-prev,
+.insights-button-next{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #00000075;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 100 ;
+    top: 50%;
+    
+}
+.insights-button-next{
+    right: 15px !important;
+}
+#insights .swiper-button-disabled{
+    opacity: 0;
+    pointer-events: none;
+}
+
+/*********career***********/
+#career-slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#career-slider .swiper-slide {
+  text-align: left;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#career-slider{
+  overflow: visible;
+  
+}
+#career-slider .swiper-wrapper .swiper-slide {
+  display: flex;
+  align-items: stretch;
+  height: auto;
+}
+#career-slider .swiper-slide img{
+  width: auto;
+}
+.career-card h6{
+  letter-spacing: 2px;
+}
+#career-slider .swiper-slide >div{
+  background:#eeecff;
+}
+
+.career-slider-left-article::after {
+  content: "";
+  width: 100vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #fff;
+}
+.career-slider-arrow .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after ,.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+  display: none;
+}
+.career-slider-arrow .swiper-button-next,
+.career-slider-arrow .swiper-button-prev{
+  color: #353434;
+}
+.career-slider-arrow .swiper-button-next{
+left: 50px;
+}
+
+
+
+/******blog slider*******/
+
+
+@media(min-width: 1200px) {
+    :root {
+    --mwidth: 100vw;
+    }
+}  
+
